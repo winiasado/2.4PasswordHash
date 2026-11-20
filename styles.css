@@ -1,0 +1,129 @@
+/* Configuración general con paleta de colores institucional (vino y dorado) */
+body {
+    background-color: #360f1d;
+    color: #f8f1e5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Tarjeta principal centrada */
+.contenedor {
+    background-color: #5e1d35;
+    width: 400px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #c5a874;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo para las imágenes decorativas de cada página */
+.imagen-cabecera {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.imagen-cabecera img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px solid #c5a874;
+    padding: 3px;
+    background-color: #5e1d35;
+    object-fit: cover;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #d9be8b;
+}
+
+/* Etiquetas y campos de texto del formulario */
+label {
+    display: block;
+    font-size: 14px;
+    color: #e8dcc4;
+    margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 16px;
+    background-color: #360f1d;
+    border: 1px solid #9e7f4b;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #d9be8b;
+}
+
+/* Botón principal en tono dorado */
+button {
+    width: 100%;
+    background-color: #c5a874;
+    color: #360f1d;
+    border: none;
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d9be8b;
+}
+
+/* Mensajes de alerta (éxito y error) */
+.alerta {
+    padding: 12px;
+    margin-bottom: 18px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.alerta p {
+    margin: 0;
+}
+
+.exito {
+    background-color: #1e4620;
+    border: 1px solid #4ade80;
+    color: #dcfce7;
+}
+
+.error {
+    background-color: #881337;
+    border: 1px solid #fda4af;
+    color: #ffe4e6;
+}
+
+/* Enlace inferior para cambiar entre registro y login */
+.enlace {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #e8dcc4;
+}
+
+.enlace a {
+    color: #d9be8b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.enlace a:hover {
+    text-decoration: underline;
+}
