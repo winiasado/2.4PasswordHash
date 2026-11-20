@@ -114,7 +114,7 @@ if (isset($_POST['registrar'])) {
 
         <!-- Enlace para ir a la página de inicio de sesión -->
         <div class="enlace">
-            <p>¿Ya tienes una cuenta? <a href="login.php">Inicia sesión aquí</a></p>
+            <p>¿Ya tienes una cuenta? <a href="loginFN.php">Inicia sesión aquí</a></p>
         </div>
     </div>
 </body>

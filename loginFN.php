@@ -90,7 +90,7 @@ if (isset($_POST['ingresar'])) {
 
         <!-- Enlace para regresar al formulario de registro -->
         <div class="enlace">
-            <p>¿No tienes cuenta? <a href="registro.php">Regístrate aquí</a></p>
+            <p>¿No tienes cuenta? <a href="registroFN.php">Regístrate aquí</a></p>
         </div>
     </div>
 </body>
